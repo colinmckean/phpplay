@@ -43,6 +43,24 @@ define("TITLE", "Learning about PHP variables and constants");
 	echo $user[3] . "<br>";
 	echo $user[4] . "<br>";
 	
+	echo "<br>";
+	//ASSOCIATIVE Arrays
+	
+	
+	$people = array(
+	    "username" => "user123",
+	    "fullname" => "Jane Blogs",
+	    "age" => 25,
+	    "gender" => "female",
+	    "country" => "Spain"
+	    );
+    echo $people["username"] ."<br>";
+    echo $people["fullname"] ."<br>";
+    echo $people["age"] ."<br>";
+    echo $people["gender"] ."<br>";
+    echo $people["country"] ."<br>";
+    
+	    
 	?>
 	
 	
