@@ -60,7 +60,28 @@ define("TITLE", "Learning about PHP variables and constants");
     echo $people["gender"] ."<br>";
     echo $people["country"] ."<br>";
     
-	    
+    //MULTI-DIMENSIONAL Arrays
+    
+    $employees = array(
+        array(
+            "username" => "user123",
+    	    "fullname" => "Jane Blogs",
+    	    "age" => 25,
+    	    "gender" => "female",
+    	    "country" => "Spain"
+            ),
+        array(
+            "username" => "user321",
+    	    "fullname" => "Joe Blogs",
+    	    "age" => 29,
+    	    "gender" => "male",
+    	    "country" => "Canada"
+            )
+        );
+        echo '<br>';
+        
+    echo $employees[0]["fullname"] . '<br>';
+    echo $employees[1]["fullname"] . '<br>';
 	?>
 	
 	
