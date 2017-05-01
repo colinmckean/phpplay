@@ -31,6 +31,24 @@ define("TITLE", "Learning about PHP variables and constants");
 	define("TITLE", "Learning about PHP variables and constants");
 	?>
 	
+	
+	<?php
+	//Arrays
+	
+	$user = array("colinmckean", "Colin McKean", 34, "male", "UK");
+	echo '<br>';
+	echo $user[0] . "<br>";
+	echo $user[1] . "<br>";
+	echo $user[2] . "<br>";
+	echo $user[3] . "<br>";
+	echo $user[4] . "<br>";
+	
+	?>
+	
+	
+	
+	
+	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
 </body>
