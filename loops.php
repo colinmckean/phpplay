@@ -18,6 +18,11 @@ define("TITLE", "Loops");
             $start++;
         }
         
+        //for loop
+        for($count = 0; $count <= 10; $count++){
+            echo "<br> $count ";
+        }
+        
         ?>
     </div>
 
