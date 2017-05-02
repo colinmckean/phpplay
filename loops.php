@@ -30,6 +30,12 @@ define("TITLE", "Loops");
             echo "<br> $person is in the array";
         }
         
+        //do while
+        $numberOfCakes = 10;
+        do{
+            $numberOfCakes--;
+            echo "<br> I'm eating cakes and there are now $numberOfCakes left";
+        }while($numberOfCakes > 0);
         
         ?>
     </div>
