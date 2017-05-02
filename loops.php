@@ -23,6 +23,14 @@ define("TITLE", "Loops");
             echo "<br> $count ";
         }
         
+        //foreach
+        //for each (collection as element)
+        $people = array("John", "Chris", "Ryan", "Ruth");
+        foreach ($people as $person){
+            echo "<br> $person is in the array";
+        }
+        
+        
         ?>
     </div>
 
