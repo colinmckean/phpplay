@@ -19,6 +19,14 @@ define("TITLE", "Functions");
 		}
 		
 		myFirstPhPFunction();
+		
+		function mySecondFunction($a){
+			do {
+				echo "$a &nbsp;";
+				$a++;
+			}while( $a <= 10);
+		}
+		mySecondFunction(3);
 	?>
 	
 	
