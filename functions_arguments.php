@@ -26,7 +26,17 @@ define("TITLE", "Functions");
 				$a++;
 			}while( $a <= 10);
 		}
+		
 		mySecondFunction(3);
+		
+		function addTogether($num1, $num2){
+			$newNum = $num1 + $num2;
+			echo "$num1 + $num2 = $newNum";
+		}
+		
+		addTogether ( 139, 10 );
+		
+		
 	?>
 	
 	
