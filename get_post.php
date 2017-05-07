@@ -10,10 +10,17 @@ define("TITLE", "Working with GET and POST");
 <body>
     <div>
         <h1><?php echo TITLE; ?></h1>
+        <!--form details are submitted via url parameters-->
         <form action="form_get.php" method="GET">
             <input type="text" name="name" placeholder="name"/>
             <input type="text" name="email" placeholder="email"/>
             <input name="form_sumbit" type="submit" value="Submit"/>
+        </form>        
+        <!--details are sent via HTTP request-->
+        <form action="form_post.php" method="POST">
+            <input type="text" name="post_name" placeholder="name"/>
+            <input type="text" name="post_email" placeholder="email"/>
+            <input name="post_sumbit" type="submit" value="Submit"/>
         </form>
         
     </div>
