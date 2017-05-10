@@ -25,7 +25,7 @@
 <?php foreach($posts as $post) { ?>
           <div class="blog-post">
             <h2 class="blog-post-title"><?php echo $post['post-title'];?></h2>
-            <p class="blog-post-meta"><?php echo $post['post-date'];?> by <?php echo $post['author'];?></p>
+            <p class="blog-post-meta"><?php echo $post['post-date'];?> by <?php echo $post['post-author'];?></p>
             <?php echo $post['post-content']; ?>
           </div><!-- /.blog-post -->
           <?php } ?>
